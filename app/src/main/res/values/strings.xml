@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Library</string>
+
+    <!-- Login Activity -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Book Details Activity -->
+    <string name="book_status">Book Status</string>
+    <string name="reviews">Reviews</string>
+    <string name="borrow_book">Borrow Book</string>
+    <string name="return_book">Return Book</string>
+    <string name="reserve_book">Reserve Book</string>
+    <string name="book_borrowed">Book borrowed successfully</string>
+    <string name="book_returned">Book returned successfully</string>
+    <string name="book_reserved">Book reserved successfully</string>
+
+    <!-- Quiz Activity -->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <!-- Navigation -->
+    <string name="title_books">Books</string>
+    <string name="title_search">Search</string>
+    <string name="title_borrowings">Borrowings</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- Authentication -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="action_sign_out">Sign Out</string>
+
+    <!-- Books -->
+    <string name="label_book_title">Title</string>
+    <string name="label_book_author">Author</string>
+    <string name="label_book_genre">Genre</string>
+    <string name="label_book_year">Publication Year</string>
+    <string name="label_book_description">Description</string>
+    <string name="label_book_status">Status</string>
+    <string name="label_book_rating">Rating</string>
+    <string name="label_book_reviews">Reviews</string>
+    <string name="action_borrow">Borrow</string>
+    <string name="action_reserve">Reserve</string>
+    <string name="action_return">Return</string>
+    <string name="action_add_review">Add Review</string>
+
+    <!-- Borrowings -->
+    <string name="label_borrow_date">Borrow Date</string>
+    <string name="label_due_date">Due Date</string>
+    <string name="label_return_date">Return Date</string>
+    <string name="label_overdue">Overdue</string>
+    <string name="label_days_remaining">Days Remaining</string>
+
+    <!-- Reviews -->
+    <string name="hint_review">Write your review here…</string>
+    <string name="action_submit_review">Submit Review</string>
+
+    <!-- Quiz -->
+    <string name="label_quiz_title">Book Quiz</string>
+    <string name="label_quiz_question">Question</string>
+    <string name="action_submit_answer">Submit Answer</string>
+    <string name="message_quiz_complete">Quiz Complete!</string>
+
+    <!-- Messages -->
+    <string name="message_book_borrowed">Book borrowed successfully</string>
+    <string name="message_book_reserved">Book reserved successfully</string>
+    <string name="message_book_returned">Book returned successfully</string>
+    <string name="message_review_added">Review added successfully</string>
+    <string name="message_error">An error occurred</string>
+
+    <!-- Admin -->
+    <string name="label_statistics">Statistics</string>
+    <string name="label_total_books">Total Books</string>
+    <string name="label_available_books">Available Books</string>
+    <string name="label_borrowed_books">Borrowed Books</string>
+    <string name="label_overdue_books">Overdue Books</string>
+    <string name="label_popular_books">Popular Books</string>
+    <string name="label_popular_genres">Popular Genres</string>
+    <string name="action_add_book">Add Book</string>
+    <string name="action_edit_book">Edit Book</string>
+    <string name="action_delete_book">Delete Book</string>
+
+    <!-- Reservations -->
+    <string name="no_reservations">No reservations found</string>
+    <string name="error_loading_reservations">Error loading reservations</string>
+    <string name="cancel_reservation">Cancel</string>
+
+    <!-- New reviews resources -->
+    <string name="add_review">Add Review</string>
+    <string name="review_hint">Write your review here...</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="error_empty_review">Review text cannot be empty</string>
+    <string name="error_empty_rating">Please select a rating</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
