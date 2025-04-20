@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:hint="Search books..."
+        android:textColorHint="@color/primary"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/ic_search"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,6 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/popins_bold"
             android:maxLines="1" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -52,6 +55,7 @@
         android:layout_height="wrap_content"
         android:text="No results found"
         android:textSize="16sp"
+        android:fontFamily="@font/popins_bold"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

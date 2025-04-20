@@ -20,20 +20,26 @@
                 android:id="@+id/chip_available"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorSuccess"
                 android:checked="true"
-                android:text="Available" />
+                android:fontFamily="@font/popins_bold"
+                android:text="Доступный" />
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/chip_borrowed"
+                android:textColor="@color/colorWarning"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Borrowed" />
+                android:fontFamily="@font/popins_bold"
+                android:text="Заимствованный" />
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/chip_reserved"
                 android:layout_width="wrap_content"
+                android:textColor="@color/primary"
                 android:layout_height="wrap_content"
-                android:text="Reserved" />
+                android:fontFamily="@font/popins_bold"
+                android:text="Забронированный" />
 
         </com.google.android.material.chip.ChipGroup>
 
@@ -50,9 +56,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/popins_bold"
             android:text="No books found"
             android:textSize="16sp"
-            android:visibility="gone" />
+            android:visibility="visible" />
 
     </LinearLayout>
 
@@ -69,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
+        android:backgroundTint="@color/primary_light"
         android:contentDescription="Add book"
         app:srcCompat="@drawable/ic_add" />
 

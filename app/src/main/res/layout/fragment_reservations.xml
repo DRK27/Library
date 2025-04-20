@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/no_reservations"
         android:textSize="16sp"
+        android:fontFamily="@font/popins_bold"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -6,31 +6,31 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.library.fragment.ProfileFragment"
+        android:name="com.example.library.ui.fragment.ProfileFragment"
         android:label="Profile"/>
     <fragment
         android:id="@+id/addBookFragment"
-        android:name="com.example.library.fragment.AddBookFragment"
+        android:name="com.example.library.ui.fragment.AddBookFragment"
         android:label="AddBookFragment" />
     <fragment
         android:id="@+id/bookDetailFragment"
-        android:name="com.example.library.fragment.BookDetailFragment"
+        android:name="com.example.library.ui.fragment.BookDetailFragment"
         android:label="BookDetailFragment" />
     <fragment
         android:id="@+id/bookListFragment"
-        android:name="com.example.library.fragment.BookListFragment"
+        android:name="com.example.library.ui.fragment.BookListFragment"
         android:label="BookListFragment" />
     <fragment
         android:id="@+id/reservationsFragment"
-        android:name="com.example.library.fragment.ReservationsFragment"
+        android:name="com.example.library.ui.fragment.ReservationsFragment"
         android:label="ReservationsFragment" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.library.fragment.SearchFragment"
+        android:name="com.example.library.ui.fragment.SearchFragment"
         android:label="SearchFragment" />
     <fragment
         android:id="@+id/borrowingsFragment"
-        android:name="com.example.library.fragment.BorrowingsFragment"
+        android:name="com.example.library.ui.fragment.BorrowingsFragment"
         android:label="BorrowingsFragment" />
 
 </navigation>

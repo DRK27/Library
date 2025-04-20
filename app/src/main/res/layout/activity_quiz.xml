@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
+        android:fontFamily="@font/popins_bold"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -17,6 +18,7 @@
         android:id="@+id/question_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/popins_bold"
         android:layout_marginTop="16dp"
         android:textColor="@color/primary"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +27,7 @@
     <TextView
         android:id="@+id/question_text"
         android:layout_width="match_parent"
+        android:fontFamily="@font/popins_bold"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:textSize="18sp"
@@ -76,15 +79,24 @@
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/popins_bold"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:text="@string/previous" />
 
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/next" />-->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/next_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:fontFamily="@font/popins_bold"
+            android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:text="@string/next" />
 

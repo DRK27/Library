@@ -15,6 +15,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
             android:src="@drawable/ic_profile"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -26,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:textSize="24sp"
+            android:fontFamily="@font/popins_bold"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +37,7 @@
             android:id="@+id/email_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/popins_bold"
             android:layout_marginTop="8dp"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:textSize="14sp"
+            android:fontFamily="@font/popins_bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/email_text_view" />
@@ -68,6 +72,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
+                    android:fontFamily="@font/popins_bold"
                     android:layout_height="wrap_content"
                     android:text="Statistics"
                     android:textSize="18sp"
@@ -88,6 +93,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/popins_bold"
                             android:text="Books Borrowed"
                             android:textSize="14sp" />
 
@@ -95,6 +101,7 @@
                             android:id="@+id/books_borrowed_text_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/popins_bold"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -109,11 +116,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Books Reserved"
+                            android:fontFamily="@font/popins_bold"
                             android:textSize="14sp" />
 
                         <TextView
                             android:id="@+id/books_reserved_text_view"
                             android:layout_width="wrap_content"
+                            android:fontFamily="@font/popins_bold"
                             android:layout_height="wrap_content"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -136,6 +145,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Quizzes Taken"
+                            android:fontFamily="@font/popins_bold"
                             android:textSize="14sp" />
 
                         <TextView
@@ -143,6 +153,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="20sp"
+                            android:fontFamily="@font/popins_bold"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -156,12 +167,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Average Score"
+                            android:fontFamily="@font/popins_bold"
                             android:textSize="14sp" />
 
                         <TextView
                             android:id="@+id/average_score_text_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/popins_bold"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -174,6 +187,7 @@
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/popins_bold"
             android:layout_marginTop="8dp"
             android:text="Logout"
             app:layout_constraintTop_toBottomOf="@id/statistics_card" />
